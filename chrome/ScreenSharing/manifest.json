@@ -1,18 +1,18 @@
 {
-  "name" : "OpenTok Screen Sharing",
-  "author": "TokBox, Inc.",
+  "name" : "Xtreamr.STUDIO",
+  "author": "Xtreamr Team",
   "version" : "2.0",
   "manifest_version" : 2,
   "minimum_chrome_version": "34",
-  "description" : "This Chrome extension is developed primary for http://tokbox.com/. It doesn't do anything except capture content of your screen.",
-  "homepage_url": "http://tokbox.com/",
-  "background": {
+  "description" : "This Chrome extension allows you to share screen while using Xtreamr.STUDIO",
+  "homepage_url": "http://xtreamr.com/",
+  "background": { 
     "scripts": ["background-script.js"],
     "persistent": false
   },
   "externally_connectable": {
     "matches": [
-      "https://*.change-this-to-your-domain.com/*"
+      "https://*.xtrea.mr/*"
     ]
   },
   "icons": {
